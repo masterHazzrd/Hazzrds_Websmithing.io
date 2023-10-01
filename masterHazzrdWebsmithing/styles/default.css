@@ -15,14 +15,14 @@ html, body {
 }
 
 body {
-    background-color: #ffff8f; /* Fallback */
+    /*background-color: #ffff8f; /* Fallback */
     animation: color 12s infinite linear;
 }
 
 @keyframes color {
     0% { background: #ffff8f; }
-    25% { background: #e94f37; }
-    50% { background: #393e41; }
-    75% { background: #3f88c5; }
-    100% { background: #44bba4; }
+    25% { background: #cffcff; }
+    50% { background: #358600; }
+    75% { background: #cffcff; }
+    100% { background: #ffff8f; }
 }
