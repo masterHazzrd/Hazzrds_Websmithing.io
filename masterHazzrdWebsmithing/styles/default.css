@@ -6,57 +6,83 @@
     margin: 0;
     padding: 0;
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-family: 'Shadows Into Light', cursive;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;    
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
 }
 
 body {
-    background-color: #358600; /* Fallback */
-    /*animation: color 12s infinite linear;*/
+    width: 100%;
 }
 
-@keyframes color {
-    0% { background: #ffff8f; }
-    25% { background: #cffcff; }
-    50% { background: #358600; }
-    75% { background: #cffcff; }
-    100% { background: #ffff8f; }
+/* Nav styling below */
+
+.top-nav {
+    overflow: hidden;
 }
+
+.top-nav a {
+    float: left;
+    
+    padding: 14px 16px;
+
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+
+    font-size: clamp(.5rem, 4vw, 1.2rem);
+}
+
+.top-nav a:hover {
+    text-shadow: 0px 1px 3px rgb(96, 231, 55);
+}
+
+.top-nav a.push-right {
+    float: right;
+}
+
+/* Header styling below */
 
 header {
-    width: 95%;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-
-    background-color: rgba(240, 240, 240, .33);
-    box-shadow: 0px 0px 16px 6px rgba(240, 240, 240, .7);
-    
-    border-radius: 5px 35px 5px;
+    height: 33vh;
 }
 
-.card {
-    width: 33%;
-    height: auto;
+h1 {
+    font-size: 3rem;
 
-    border: solid black;
-    border-radius: 5px 35px 5px;
+    text-align: center;
 }
 
-.name-box {
+/* Main styling below */
+
+main {
     display: block;
 
     text-align: center;
-    letter-spacing: 2px;
+
+    height: 50vh;
 }
 
-.name-box h4 {
-    letter-spacing: 4px;
+h3 {
+    font-size: 1.35rem;
+    padding: 12px 0;
+}
+
+main p {
+    padding: 12px 0;
+}
+
+/* Footer styling below */
+
+footer {
+    text-align: center;
+}
+
+.foot-nav {
+    overflow: hidden;
 }
