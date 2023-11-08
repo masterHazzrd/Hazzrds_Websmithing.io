@@ -86,3 +86,22 @@ footer {
 .foot-nav {
     overflow: hidden;
 }
+
+.foot-nav a {
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+
+    font-size: clamp(.5rem, 4vw, 1.2rem);
+}
+
+.foot-nav a.push-left {
+    float: left;
+
+    padding: 14px 16px;
+}
+
+.foot-nav a:hover {
+    text-shadow: 0px 1px 3px rgb(96, 231, 55);
+}
