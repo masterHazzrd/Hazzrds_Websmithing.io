@@ -89,7 +89,7 @@ footer {
 
 .foot-nav a {
     color: black;
-    
+
     text-align: center;
     text-decoration: none;
 
@@ -104,4 +104,10 @@ footer {
 
 .foot-nav a:hover {
     text-shadow: 0px 1px 3px rgb(96, 231, 55);
+}
+
+.foot-nav a.push-right {
+    float: right;
+
+    padding: 14px 16px;
 }
