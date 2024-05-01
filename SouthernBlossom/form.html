@@ -41,17 +41,16 @@
   <label for="shippingAddress">Shipping Address:</label>
   <select id="shippingAddress" onchange="handleShippingAddress()">
     <option value="">Select</option>
-    <option value="residential">Residential (Gated/Non-Gated)</option>
-    <option value="apartment">Apartment (Gated/Non-Gated)</option>
+    <option value="residential">Residential</option>
+    <option value="apartment">Apartment</option>
     <option value="business">Business</option>
   </select><br><br>
 
   <div id="residentialAddress" style="display: none;">
     <label for="gatedOptionResidential">Gated Option:</label>
     <select id="gatedOptionResidential" onchange="handleGatedOption('Residential')">
-      <option value="">Select</option>
-      <option value="gated">Gated</option>
       <option value="nonGated">Non-Gated</option>
+      <option value="gated">Gated</option>      
     </select><br><br>
 
     <div id="accessCodeSectionResidential" style="display: none;">
@@ -80,9 +79,8 @@
   <div id="apartmentAddress" style="display: none;">
     <label for="gatedOptionApartment">Gated Option:</label>
     <select id="gatedOptionApartment" onchange="handleGatedOption('Apartment')">
-      <option value="">Select</option>
-      <option value="gated">Gated</option>
       <option value="nonGated">Non-Gated</option>
+      <option value="gated">Gated</option>
     </select><br><br>    
 
     <div id="accessCodeSectionApartment" style="display: none;">
