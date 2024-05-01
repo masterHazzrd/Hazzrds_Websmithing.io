@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  background: #eee5e9;
+  background: #efc88b;
   padding: 0;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,8 +16,8 @@ body {
     width: 100vw;
     background: radial-gradient(
         ellipse at 59% 78%,
-        #7c7c7c 3%,
-        #000 12%, 
+        #7c7c7c 2%,
+        #000 7%, 
         #cf5c36 28%, 
         #efc88b 72%);
     overflow: hidden;
