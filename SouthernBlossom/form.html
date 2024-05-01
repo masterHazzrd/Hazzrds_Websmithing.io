@@ -7,10 +7,10 @@
 </head>
 <body>
 
-<h2>Floral Shop Order Form</h2>
+<h1>Floral Shop Order Form</h1>
 
 <form id="orderForm">
-  <h3>Customer Information</h3>
+  <h2>Ordering Customers Information</h2>
   <label for="name">Name:</label>
   <input type="text" id="name" required><br><br>
   
@@ -20,12 +20,21 @@
   <label for="phone">Phone Number:</label>
   <input type="tel" id="phone" required><br><br>
 
+  <h2>Recipient Information</h2>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label for="recipientPhone">Recipient Phone:</label>
+    <input type="text" id="recipientPhone"><br><br>
+  </div>
+
   <h3>Delivery Preference</h3>
   <label for="deliveryType">Delivery Preference:</label>
   <select id="deliveryType" onchange="handleDeliveryType()">
     <option value="pickup">Pickup</option>
     <option value="shipping">Shipping</option>
-  </select><br><br>
+  </select><br><br>  
 
  <div id="shippingDetails" style="display: none;">
   <h3>Shipping Details</h3>
@@ -50,8 +59,7 @@
       <input type="text" id="accessCodeResidential"><br><br>
     </div>
 
-    <label for="recipientPhone">Recipient Phone:</label>
-    <input type="text" id="recipientPhone"><br><br>
+    
 
     <label for="streetAddress1">Street Address 1:</label>
     <input type="text" id="streetAddress1"><br><br>
